@@ -1,0 +1,48 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="15; url=thankyou.html">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern Multimedia Web Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="preloader">
+    <div class="loader"></div>
+  </div>
+
+  <header>
+    <h1 class="typing">Welcome to My Modern Webpage</h1>
+    <nav>
+      <ul class="menu">
+        <li>Home</li>
+        <li>About</li>
+        <li>Portfolio</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="main-content">
+    <img src="https://picsum.photos/250/200" alt="Floating Feature" class="float-img">
+    <p style="margin-top: 2rem;">This site demonstrates modern CSS animations, responsive layout, and clean UI design using just HTML & CSS.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+  </footer>
+
+  <script>
+    window.onload = function () {
+      document.getElementById("preloader").style.display = "none";
+    };
+    setTimeout(() => {
+      window.location.href = "thankyou.html";
+    }, 15000);
+  </script>
+
+</body>
+</html>
